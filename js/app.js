@@ -136,8 +136,8 @@ function myTimer () {
 /* Displays modal and model content */
 function win() {
     if ($(".deck").children().length === $(".deck").children(".matched").length) {
-    	timer = false ; // stop the timer
-    	$(".text").html($(".stat-area").html());  content
+    	timer = false;
+    	$(".text").html($(".stat-area").html());
     	modal.style.display = "block";	    
     	$(".restart").click(function() {
     	location.reload();
